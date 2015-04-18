@@ -1,0 +1,99 @@
+.margintop{
+	margin-top: 50px;
+}
+
+.item h1{
+    padding: 10px 0 0 0;     
+    color: #EEE;
+    padding-top: 20px;
+    font-size: 52px;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+.info{
+	background-color: #EDA409;
+	color: white;
+	padding:20px 0 30px 0;
+}
+
+.info i{
+	color: #2C77C2;
+	text-shadow: 2px 2px 5px #5CA7E2 ;
+}
+
+
+.footer{
+	background-color: #333;
+	color: #5790AB;
+}
+
+.footer h3{
+	color: white;
+}
+
+.register{
+	color: #37709B;
+}
+
+.logo{
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin:5px 5px 0 0;
+}
+
+.map{
+	border:0; 
+	margin-top: 20px; 
+	width:100%; 
+	height:100%;
+	border:2px solid #222;
+}
+
+.sidebar-brand{
+	color: #EEE;
+}
+
+::selection {
+background:lightgreen;
+color:#FFF;
+}
+::-moz-selection {
+background:lightgreen;
+color:#FFF;
+}
+::-webkit-selection {
+background:lightgreen;
+color:#FFF;
+}
+
+a:hover{
+	text-decoration: none;
+
+}
+
+.products img{
+	max-height: 250px;
+}
+.productTitle{
+	background-color: #333;
+	line-height: 250px;
+}
+
+.productTitle:hover{
+	background-color: #222;
+	line-height: 250px;
+}
+
+.products h2{
+	color: #AAA;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.products a{
+	display: block;
+}
