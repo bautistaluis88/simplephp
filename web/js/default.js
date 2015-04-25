@@ -9,7 +9,7 @@ var animate = {
     options : {
         autoPlay: true,
         autoPlayDelay: 4000,    
-        pauseOnHover: false,
+        pauseOnHover: true,
         navigationSikp: 1000,
         reverseAnimationsWhenNavigatingBackwards: false,
         pagination: true

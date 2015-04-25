@@ -2,15 +2,15 @@
 
 class View{
 
-    public static function show(){
+    public static function show($viewName, $data=array()){
         $data["IMG"] = IMG;
         $data["LINK"] = LINK;
         $data["CSS"] = CSS;
         $data["JS"] = JS;
         $template = file_get_contents("view/template.tpl");        
         $content = file_get_contents("view/".$viewName.".tpl");
-        $html = View::parse($view, $data);
         $view = str_replace("{view}", $content, $template);
+        $html = View::parse($view, $data);
         header('Content-Type: text/html; charset=UTF-8');
         echo $html;
     }

@@ -1,6 +1,6 @@
 <?php 
 //Project Location Config
-define("HOST", "simple");
+define("HOST", "simplephp");
 define("SERVER_ROOT", $_SERVER['DOCUMENT_ROOT'].HOST);
 define("HOME", 'http://localhost/'.HOST."/");
 define("CONT", 2);

@@ -3,29 +3,28 @@
 	    <ul class="sequence-canvas text-center">
 	        <li>
 	            <div class="item slide1">
-		            <h1>Roller Blackout</h1>
+		            <h1>PHP Simple</h1>
 		            <div class="carousel-caption">
-		              <h3>First slide label</h3>
-		              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		              <a href="#" class="btn btn-info">Leer más!</a>
+		              <h3>Un Framework Simple para dar vida a tus proyectos</h3>
+		              <p>Aprovechá las mejores tecnologías en un solo paquete</p>
 		            </div>
 	            </div>
 	        </li>
 	        <li>
 	            <div class="item slide2">
-		           	<h1>Slide 2</h1>
+		           	<h1>Uniendo Fuerzas</h1>
 		            <div class="carousel-caption">
-		              <h3>Second slide label</h3>
-		              <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+		              <h3>PHP Simple integra lo mejor del Frontend</h3>
+		              <p>Bootstrap 3 + Font Awesome + JQuery</p>
 		            </div>
 	            </div>
 	        </li>
 	        <li>
 	            <div class="item slide3">
-	                <h1>Slide 3</h1>
+	                <h1>No sufras más con SQL</h1>
 		            <div class="carousel-caption">
-		              <h3>third slide label</h3>
-		              <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+		              <h3>Olvidate de escribir todas las Clases</h3>
+		              <p>PHP Simple interactúa con la DB por vos!</p>
 		            </div>	
 		        </div>
 	        </li>
@@ -37,28 +36,24 @@
 		</ul>
 	</div>    
 </div>
-
-<div class="row info text-left">
-	<div class="col-sm-4">
-		<h3><i class="fa fa-users"></i> Quienes Somos</h3>
-		<p>
-			Nacimos en San Miguel de Tucumán en el año 1965. Desde ese momento trabajamos incansablemente en perfeccionarnos para poder brindarle la mejor experiencia en <b>instalación y provisión de cortinas, persianas y sistemas de protección solar</b>. 
-		</p>
-	</div>		
-	<hr class="visible-xs"/>
-	<div class="col-sm-4">
-		<h3><i class="fa fa-cog"></i> Productos y Servicios</h3>
-		<p>
-			Somos representantes en el Norte Argentino de Cortinas y Persianas <b>Sunset</b> y Motores para Cortinas y Persianas <b>Somfy</b>.
-			Además le ofrecemos el mejor servicio en reparacion y restauración de persianas como de instalación de cortinas
-		</p>
-	</div>		
-	<hr class="visible-xs"/>
-	<div class="col-sm-4">
-		<h3><i class="fa fa-thumbs-o-up"></i> Nuestro Compromiso</h3>
-		<p>
-			Le ofrecemos el mejor asesoramiento personalizado en la <b>comodidad de su domicilio</b>.
-			Nuestros Trabajos son garantía, entregados a los <b>15 días hábiles</b> en el domicilio del cliente dentro de la provincia de Tucumán. También brindamos este servicio en el interior y en las demás provincias del NOA.
-		</p>
-	</div>		
+<div class="row text-center">
+	<div clas="col-sm-12">
+		<h1>Sólo 4 pasos!</h1>
+	</div>
+	<div class="col-sm-3">
+		<h3>Primero</h3>
+		<p>Creá tu Proyecto</p>
+	</div>
+	<div class="col-sm-3">
+		<h3>Segundo</h3>
+		<p>Ponemos un nombre y configuramos la conexión a la DB</p>
+	</div>
+	<div class="col-sm-3">
+		<h3>Tercero</h3>
+		<p>Elegí las clases para incluir en el Modelo</p>
+	</div>
+	<div class="col-sm-3">
+		<h3>Por último</h3>
+		<p>Disfrutá de la mejor experiencia en Desarrollo</p>
+	</div>
 </div>

@@ -68,6 +68,7 @@ Class _Collection{Tabla}
 {
     private $oBB;
     private $count;
+    private $list;
     public ${tabla};
 
     public function __construct($condicion=null)
@@ -88,6 +89,7 @@ Class _Collection{Tabla}
         $result = $this->oBB->consult("SELECT * FROM {tabla} ".$where.";");
         $this->oBB->close();
         $this->count = count($result);
+        $this->list = $result;
         if(count($result)>0)
         {
             for($i=0;$i<count($result);$i++)
@@ -116,6 +118,11 @@ Class _Collection{Tabla}
     public function count()
     {
         return $this->count;
+    }
+
+    public function list()
+    {
+        return FTN::toArray($this->list);
     }
 
 }

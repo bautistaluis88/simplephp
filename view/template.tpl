@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Districort</title>
+    <title>PHP Simple!</title>
 
     <!-- Bootstrap -->
     <link href="{CSS}bootstrap.css" rel="stylesheet">
@@ -24,10 +24,11 @@
   </head>
   <body>  
     <!-- Add your menu here-->
-   
+      
       <!-- Add Here your view-->
+    <div class="container-fluid">
       {view}
-
+    </div>  
       <!-- Footer here-->
       
     <script src="{JS}jquery.js"></script>
