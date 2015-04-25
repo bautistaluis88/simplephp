@@ -4,7 +4,7 @@ class Admin{
 		
 	}
 	public static function createClass($tableName){
-		__Admin::createClass($tableName);
+		SAdmin::createClass($tableName);
 	}
 }
 ?>

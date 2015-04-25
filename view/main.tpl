@@ -57,3 +57,20 @@
 		<p>Disfrutá de la mejor experiencia en Desarrollo</p>
 	</div>
 </div>
+<div class="row">
+	<div class="col-sm-12 text-center">
+		<h3>Los Autores</h3>
+	</div>
+	<div class="col-sm-8 col-sm-offset-2">
+		<div class="row">
+			<div class="col-sm-6">
+				<h3>Luis Bautista</h3>
+				<img src="" class="picProfile">
+			</div>
+			<div class="col-sm-6">
+				<h3>Joaquín Nader</h3>
+				<img src="" class="picProfile">
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,5 +1,5 @@
 <?php 
-class __Admin{
+class SAdmin{
 	public static function createClass($tableName){
 		$dir = SERVER_ROOT."/model/";
 		$maquetaClass = file_get_contents(SERVER_ROOT."/core/class.tpl.php");
