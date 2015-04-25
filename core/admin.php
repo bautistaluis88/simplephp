@@ -99,6 +99,59 @@ class __Admin{
 		fwrite($file,$contenido);
 		fclose($file);
 	}
+
+    public static function createRelation($clase,$clase_id,$claseRelacion,$claseRelacion_id,$tipoRelacion)
+    {
+            $dir = SERVER_ROOT."/model/";
+            $maquetaClass = file_get_contents($dir."\\".$clase.".php");
+
+    //********************************************************************
+
+            $methodo = "";
+            if($tipoRelacion=="1")
+            {
+                $methodo = "
+
+        public function get".ucwords($claseRelacion)."()
+        {
+            \$o".ucwords($claseRelacion)." = new ".ucwords($claseRelacion)."(\$this->".$clase_id.");
+            return \$o".ucwords($claseRelacion).";
+        }
+
+        //---{{{SimplePHP}}}---//
+
+        ";
+            }
+            else
+            {
+                $methodo = "
+
+        public function getCollection".ucwords($claseRelacion)."(\$wr=null)
+        {
+            \$where = '';
+            if(\$wr!=null)
+            {
+                \$where = ' AND '.\$wr;
+            }
+
+            \$o".ucwords($claseRelacion)." = new Collection".ucwords($claseRelacion)."('".$claseRelacion_id."='.\$this->".$clase_id.".\$where);
+            return \$o".ucwords($claseRelacion).";
+        }
+
+        //---{{{SimplePHP}}}---//
+
+        ";
+            }
+
+            $maquetaClass = str_replace("//---{{{SimplePHP}}}---//",$methodo,$maquetaClass);
+
+            $ruta = $dir."\\".$clase.".php";
+            $contenido = $maquetaClass;
+            unlink($ruta);
+            $file=fopen($ruta,"w");
+            fwrite($file,$contenido);
+            fclose($file);
+    }
 }
 
  ?>
