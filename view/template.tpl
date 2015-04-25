@@ -36,3 +36,4 @@
     <script src="{JS}default.js"></script>
     <script src="{JS}jquery.sequence-min.js"></script>
   </body>
+</html>
